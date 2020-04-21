@@ -82,6 +82,7 @@ defmodule MyAppWeb do
 
       # Import convenience functions for LiveView rendering
       import Phoenix.LiveView.Helpers
+      import MyAppWeb.LiveHelpers
 
       import MyAppWeb.ErrorHelpers
       import MyAppWeb.Gettext
